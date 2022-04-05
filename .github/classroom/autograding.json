@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "2\r\n5\r\n8\r\n12\r\n9\r\n3\r\n0",
+      "output": "Stack input: [3, 9, 12, 8, 5, 2]\r\nStack output: [2, 5, 72]",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "15\r\n36\r\n11\r\n18\r\n27\r\n45\r\n11\r\n16\r\n28\r\n0",
+      "output": "Stack input: [28, 16, 11, 45, 27, 18, 11, 36, 15]\r\nStack output: [180, 11, 270, 11, 112]",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "3\r\n5\r\n15\r\n8\r\n9\r\n72\r\n4\r\n0",
+      "output": "Stack input: [4, 72, 9, 8, 15, 5, 3]\r\nStack output: [360]",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "70\r\n81\r\n6\r\n19\r\n53\r\n58\r\n76\r\n36\r\n18\r\n21\r\n0",
+      "output": "Stack input: [21, 18, 36, 76, 58, 53, 19, 6, 81, 70]\r\nStack output: [5670, 19, 53, 138852]",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "9\r\n36\r\n44\r\n21\r\n12\r\n16\r\n0",
+      "output": "Stack input: [16, 12, 21, 44, 36, 9]\r\nStack output: [11088]",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "32\r\n33\r\n11\r\n49\r\n21\r\n37\r\n33\r\n24\r\n27\r\n0",
+      "output": "Stack input: [27, 24, 33, 37, 21, 49, 11, 33, 32]\r\nStack output: [32, 1617, 37, 2376]",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "17\r\n6\r\n2\r\n12\r\n5\r\n7\r\n1\r\n11\r\n5\r\n24\r\n0",
+      "output": "Stack input: [24, 5, 11, 1, 7, 5, 12, 2, 6, 17]\r\nStack output: [17, 12, 5, 7, 1, 11, 5, 24]",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "6\r\n4\r\n3\r\n2\r\n7\r\n6\r\n2\r\n0",
+      "output": "Stack input: [2, 6, 7, 2, 3, 4, 6]\r\nStack output: [12, 7, 6]",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "2\r\n2\r\n1\r\n1\r\n3\r\n3\r\n6\r\n0",
+      "output": "Stack input: [6, 3, 3, 1, 1, 2, 2]\r\nStack output: [2, 1, 1, 6]",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "8\r\n1\r\n2\r\n1\r\n9\r\n2\r\n2\r\n6\r\n2\r\n7\r\n6\r\n0",
+      "output": "Stack input: [6, 7, 2, 6, 2, 2, 9, 1, 2, 1, 8]\r\nStack output: [8, 1, 2, 1, 18, 7, 6]",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
