@@ -127,6 +127,7 @@ int main(){
 
 // fungsi mencari FPB antara bilangan x dan y
 int gcd(int x, int y){      
+	printf("x,y=%d,%d\n", x, y);
 	while(x != y)
 	{
 		if(x > y)
@@ -134,6 +135,9 @@ int gcd(int x, int y){
 		else
 			y -= x;
 	} 
+	
+	int ret = x;
+	return ret;
 } 
 
 // fungsi mencari KPK antara bilangan x dan y
